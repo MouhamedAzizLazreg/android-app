@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="formula_1">
+Formula 1
+</string>
+    <string name="add">
+ADD
+</string>
+    <string name="racer">
+Racer
+</string>
+    <string name="races_won">
+Races Won
+</string>
+    <string name="fastest_lap">
+Fastest Lap
+</string>
+    <string name="points">
+Points
+</string>
+    <string name="nationality">
+Nationality
+</string>
+    <string name="team">
+Team
+</string>
+    <string name="update">
+Update
+</string>
+    <string name="delete">
+Delete
+</string>
+</resources>

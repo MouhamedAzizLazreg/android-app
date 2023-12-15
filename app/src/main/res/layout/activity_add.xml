@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddActivity">
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/android_lar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToOutline="true"
+        android:background="#082335"
+        >
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="143dp"
+            android:layout_height="64dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="109dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="108dp"
+            android:layout_marginBottom="734dp"
+            app:srcCompat="@drawable/whitef1" />
+
+        <View
+            android:id="@+id/add_button"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="26dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="775dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="21dp"
+            android:background="@drawable/reactangle_1" />
+
+        <TextView
+            android:id="@+id/add"
+            android:layout_width="57dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="175dp"
+            android:layout_marginTop="786dp"
+            android:fontFamily="@font/inter_semibold"
+            android:gravity="top"
+            android:text="@string/add"
+            android:textAppearance="@style/add" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="29dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="234dp"
+            android:layout_marginEnd="321dp"
+            android:layout_marginBottom="583dp"
+            android:fontFamily="@font/inter_semibold"
+            android:gravity="top"
+            android:text="@string/racer"
+            android:textAppearance="@style/racer" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="117dp"
+            android:layout_height="38dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="34dp"
+            android:layout_marginTop="284dp"
+            android:layout_marginEnd="260dp"
+            android:layout_marginBottom="524dp"
+            android:fontFamily="@font/inter_semibold"
+            android:gravity="top"
+            android:text="@string/races_won"
+            android:textAppearance="@style/races_won" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="123dp"
+            android:layout_height="37dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="342dp"
+            android:layout_marginEnd="255dp"
+            android:layout_marginBottom="467dp"
+            android:fontFamily="@font/inter_semibold"
+            android:gravity="top"
+            android:text="@string/fastest_lap"
+            android:textAppearance="@style/fastest_lap" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="29dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="401dp"
+            android:layout_marginEnd="317dp"
+            android:layout_marginBottom="416dp"
+            android:fontFamily="@font/inter_semibold"
+            android:gravity="top"
+            android:text="@string/points"
+            android:textAppearance="@style/points" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="116dp"
+            android:layout_height="33dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="451dp"
+            android:layout_marginEnd="263dp"
+            android:layout_marginBottom="362dp"
+            android:fontFamily="@font/inter_semibold"
+            android:gravity="top"
+            android:text="@string/nationality"
+            android:textAppearance="@style/nationality" />
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="29dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="33dp"
+            android:layout_marginTop="504dp"
+            android:layout_marginEnd="325dp"
+            android:layout_marginBottom="313dp"
+            android:fontFamily="@font/inter_semibold"
+            android:gravity="top"
+            android:text="@string/team"
+            android:textAppearance="@style/team" />
+
+        <View
+            android:id="@+id/rectangle_4"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="164dp"
+            android:layout_marginLeft="164dp"
+            android:layout_marginTop="232dp"
+            android:layout_marginEnd="31dp"
+            android:layout_marginBottom="572dp"
+            android:background="@drawable/rectangle_3" />
+
+        <View
+            android:id="@+id/rectangle_5"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="164dp"
+            android:layout_marginLeft="164dp"
+            android:layout_marginTop="285dp"
+            android:layout_marginEnd="31dp"
+            android:layout_marginBottom="524dp"
+            android:background="@drawable/rectangle_3" />
+
+        <View
+            android:id="@+id/rectangle_6"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="164dp"
+            android:layout_marginLeft="164dp"
+            android:layout_marginTop="337dp"
+            android:layout_marginEnd="31dp"
+            android:layout_marginBottom="469dp"
+            android:background="@drawable/rectangle_3" />
+
+        <View
+            android:id="@+id/rectangle_7"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="164dp"
+            android:layout_marginLeft="164dp"
+            android:layout_marginTop="388dp"
+            android:layout_marginEnd="31dp"
+            android:layout_marginBottom="417dp"
+            android:background="@drawable/rectangle_3" />
+
+        <View
+            android:id="@+id/rectangle_8"
+            android:layout_width="wrap_content"
+            android:layout_height="42dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="164dp"
+            android:layout_marginLeft="164dp"
+            android:layout_marginTop="442dp"
+            android:layout_marginEnd="31dp"
+            android:layout_marginBottom="362dp"
+            android:background="@drawable/rectangle_3" />
+
+        <View
+            android:id="@+id/rectangle_9"
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="164dp"
+            android:layout_marginLeft="164dp"
+            android:layout_marginTop="493dp"
+            android:layout_marginEnd="31dp"
+            android:layout_marginBottom="306dp"
+            android:background="@drawable/rectangle_3" />
+
+        <EditText
+            android:id="@+id/racer"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="163dp"
+            android:layout_marginTop="228dp"
+            android:layout_marginEnd="27dp"
+            android:layout_marginBottom="572dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/races_won"
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="162dp"
+            android:layout_marginTop="281dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginBottom="524dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/fastest_lap"
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="163dp"
+            android:layout_marginTop="334dp"
+            android:layout_marginEnd="27dp"
+            android:layout_marginBottom="474dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/team"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="163dp"
+            android:layout_marginTop="491dp"
+            android:layout_marginEnd="27dp"
+            android:layout_marginBottom="305dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/nationality"
+            android:layout_width="wrap_content"
+            android:layout_height="46dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="162dp"
+            android:layout_marginTop="438dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginBottom="362dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/points"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="162dp"
+            android:layout_marginTop="385dp"
+            android:layout_marginEnd="28dp"
+            android:layout_marginBottom="417dp"
+            android:ems="10"
+            android:inputType="text" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
